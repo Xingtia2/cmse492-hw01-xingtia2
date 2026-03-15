@@ -1,0 +1,5 @@
+region,total_units,total_revenue,orders,avg_revenue_per_order,revenue_share_pct
+Northeast,65,2449.5,12,204.12,31.34
+Midwest,54,2005.5,12,167.12,25.66
+West,74,1785.0,12,148.75,22.84
+South,49,1576.0,12,131.33,20.16
