@@ -113,3 +113,21 @@ outputs/revenue\_by\_region.png
 - summary_by_region.csv – aggregated revenue by region
 
 - revenue_by_region.png – visualization of revenue distribution
+
+## Running with Docker
+
+This project can also be run inside a Docker container.
+
+Build the Docker image:
+
+```bash
+docker build -t cmse492-hw01 .
+```
+
+Run the container:
+
+```bash
+docker run --rm cmse492-hw01
+```
+
+The container will execute `src/analysis.py` and generate the analysis outputs in the `outputs/` directory.
